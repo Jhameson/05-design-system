@@ -1,4 +1,4 @@
-import { Box, BoxProps } from '@jl-ui/react'
+import { Box, BoxProps, Text } from '@jl-ui/react'
 import type { StoryObj, Meta } from '@storybook/react'
 
 export default {
@@ -7,7 +7,7 @@ export default {
   args: {
     children: (
       <>
-        <span>Children em comum com todos</span>
+        <Text>Children em comum com todos</Text>
       </>
     ),
   },
