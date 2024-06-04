@@ -1,13 +1,32 @@
-import { TextInput, TextInputProps } from '@jl-ui/react'
+import { Box, Text, TextInput, TextInputProps } from '@jl-ui/react'
 import type { StoryObj, Meta } from '@storybook/react'
 
 export default {
   title: 'Form/TextInput',
   component: TextInput,
   args: {
-    children: 'Lorem ',
+    disabled: false,
+    placeholder: 'Text',
   },
-  // tags: ['autodocs'],
+  decorators: [
+    (Story) => {
+      return (
+        <Box
+          as="label"
+          css={{ display: 'flex', flexDirection: 'column', gap: '$2' }}
+        >
+          <Text size="sm">User name</Text>
+          {Story()}
+        </Box>
+      )
+    },
+  ],
 } as Meta<TextInputProps>
 
 export const Primary: StoryObj<TextInputProps> = {}
+
+export const WithPrefix: StoryObj<TextInputProps> = {
+  args: {
+    prefix: 'cal.com/',
+  },
+}
