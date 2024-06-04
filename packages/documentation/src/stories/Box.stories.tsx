@@ -11,7 +11,7 @@ export default {
       </>
     ),
   },
-  // tags: ['autodocs'],
+  tags: ['autodocs'],
 } as Meta<BoxProps>
 
 export const Primary: StoryObj<BoxProps> = {}
