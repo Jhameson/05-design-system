@@ -8,6 +8,7 @@ export default {
     disabled: false,
     placeholder: 'Text',
   },
+  //forma de customizar a view sem alterar o componente / view do componente
   decorators: [
     (Story) => {
       return (
