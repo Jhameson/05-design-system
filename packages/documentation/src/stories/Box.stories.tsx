@@ -11,7 +11,14 @@ export default {
       </>
     ),
   },
-  tags: ['autodocs'],
+
+  // argTypes: {
+  //   children: {
+  //     control: {
+  //       type: 'text',
+  //     },
+  //   },
+  // },
 } as Meta<BoxProps>
 
 export const Primary: StoryObj<BoxProps> = {}

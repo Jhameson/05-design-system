@@ -28,3 +28,6 @@ export const Heading = styled('h2', {
 export interface HeadingProps extends ComponentProps<typeof Heading> {
   as?: ElementType
 }
+
+// Exibição de nome de componente no storybook e devTools
+Heading.displayName = 'Heading'

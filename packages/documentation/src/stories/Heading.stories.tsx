@@ -6,7 +6,17 @@ export default {
   component: Heading,
   args: {
     children: 'Heading',
+    size: 'md',
   },
+  argTypes: {
+    size: {
+      options: ['sm', 'md', 'lg', '2xl', '4xl', '5xl', '6xl'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+  },
+
   // tags: ['autodocs'],
 } as Meta<HeadingProps>
 

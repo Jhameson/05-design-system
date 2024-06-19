@@ -8,6 +8,14 @@ export default {
     src: 'https:/github.com/jhameson.png',
     alt: 'user',
   },
+  argTypes: {
+    src: {
+      description: 'Url da imagem',
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}

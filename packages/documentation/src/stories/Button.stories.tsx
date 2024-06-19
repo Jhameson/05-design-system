@@ -9,6 +9,26 @@ export default {
     children: 'Send',
     size: 'md',
     disabled: false,
+    variant: 'primary',
+  },
+  argTypes: {
+    variant: {
+      //variantes e controles
+      options: ['primary', 'secondary', 'tertiary'],
+      control: { type: 'inline-radio' },
+    },
+    size: {
+      description: 'Tamanho do botão',
+      options: ['sm', 'md'],
+      control: { type: 'inline-radio' },
+    },
+    disabled: {
+      control: { type: 'boolean' },
+    },
+    onClick: {
+      //Configurando a propriedade `argTypes` para receber as ações que queremos que façam log
+      action: 'click',
+    },
   },
 } as Meta<ButtonProps>
 
