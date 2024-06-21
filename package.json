@@ -1,6 +1,5 @@
 {
-  "name": "jhamesondesignsystem",
-  "version": "1.0.1",
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
@@ -8,20 +7,7 @@
     "dev": "turbo run dev --parallel",
     "build": "turbo run build"
   },
-  "repository:": {
-    "type": "git",
-    "url": "git+https://github.com/Jhameson/05-design-system.git"
-  },
   "devDependencies": {
     "turbo": "^1.13.3"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
-  },
-  "description": "- [] Text",
-  "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }
