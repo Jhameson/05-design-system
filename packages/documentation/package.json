@@ -8,7 +8,8 @@
     "preview": "vite preview",
     "dev": "storybook dev -p 6006",
     "deploy-storybook": "storybook-to-ghpages",
-    "build": "storybook build"
+    "build": "storybook build ",
+    "build-storybook": "build storybook -s public"
   },
   "dependencies": {
     "@jl-ui/eslint-config": "*",
