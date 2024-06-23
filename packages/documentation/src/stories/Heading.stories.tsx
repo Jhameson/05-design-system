@@ -1,4 +1,4 @@
-import { Heading, HeadingProps } from '@jl-ui/react'
+import { Heading, HeadingProps } from '@jl-design-components/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {

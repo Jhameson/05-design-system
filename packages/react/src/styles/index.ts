@@ -6,7 +6,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@jl-ui/tokens'
+} from '@jl-design-components/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {

@@ -1,4 +1,4 @@
-import { Avatar, AvatarProps } from '@jl-ui/react'
+import { Avatar, AvatarProps } from '@jl-design-components/react'
 import type { StoryObj, Meta } from '@storybook/react'
 
 export default {

@@ -1,4 +1,4 @@
-import { Button, ButtonProps } from '@jl-ui/react'
+import { Button, ButtonProps } from '@jl-design-components/react'
 import { Meta, StoryObj } from '@storybook/react'
 import { ArrowRight } from 'phosphor-react'
 

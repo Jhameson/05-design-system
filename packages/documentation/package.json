@@ -1,5 +1,5 @@
 {
-  "name": "@jl-ui/documentation",
+  "name": "@jl-design-components/documentation",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,10 +12,10 @@
     "build-storybook": "build storybook -s public"
   },
   "dependencies": {
-    "@jl-ui/eslint-config": "*",
-    "@jl-ui/react": "*",
-    "@jl-ui/tokens": "*",
-    "@jl-ui/ts-config": "*",
+    "@jl-design-components/eslint-config": "*",
+    "@jl-design-components/react": "*",
+    "@jl-design-components/tokens": "*",
+    "@jl-design-components/ts-config": "*",
     "@storybook/addon-a11y": "^8.1.10",
     "phosphor-react": "^1.4.1",
     "polished": "^4.3.1",

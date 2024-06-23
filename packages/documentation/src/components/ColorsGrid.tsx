@@ -1,4 +1,4 @@
-import { colors } from '@jl-ui/tokens'
+import { colors } from '@jl-design-components/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

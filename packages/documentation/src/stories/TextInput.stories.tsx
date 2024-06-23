@@ -1,4 +1,9 @@
-import { Box, Text, TextInput, TextInputProps } from '@jl-ui/react'
+import {
+  Box,
+  Text,
+  TextInput,
+  TextInputProps,
+} from '@jl-design-components/react'
 import type { StoryObj, Meta } from '@storybook/react'
 
 export default {

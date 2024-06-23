@@ -1,4 +1,4 @@
-import { Box, Text, TextArea, TextAreaProps } from '@jl-ui/react'
+import { Box, Text, TextArea, TextAreaProps } from '@jl-design-components/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {

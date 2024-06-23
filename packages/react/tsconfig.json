@@ -1,4 +1,4 @@
 {
-  "extends": "@jl-ui/ts-config/react.json",
+  "extends": "@jl-design-components/ts-config/react.json",
   "include": ["src"]
 }

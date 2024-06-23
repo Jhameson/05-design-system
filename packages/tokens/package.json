@@ -1,6 +1,6 @@
 {
-  "name": "@jl-ui/tokens",
-  "version": "1.0.0",
+  "name": "@jl-design-components/tokens",
+  "version": "2.0.0",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -14,8 +14,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@jl-ui/ts-config": "*",
-    "@jl-ui/eslint-config": "*",
+    "@jl-design-components/ts-config": "*",
+    "@jl-design-components/eslint-config": "*",
     "tsup": "^8.0.1",
     "typescript": "^5.3.2"
   }

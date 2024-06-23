@@ -1,4 +1,4 @@
-import { Box, MultiStep, MultiStepsProps } from '@jl-ui/react'
+import { Box, MultiStep, MultiStepsProps } from '@jl-design-components/react'
 import { Meta, StoryObj } from '@storybook/react'
 
 export default {
