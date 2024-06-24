@@ -1,0 +1,4 @@
+import{j as t}from"./index-BAe4MwBu.js";import{useMDXComponents as s}from"./index-DlpNa54Y.js";import{M as i}from"./chunk-HLWAVYOI-BdqtedXN.js";import{T as r}from"./TokensGrid-Cbsk5MZp.js";import{l as m}from"./index-rkO-q3PW.js";import"./index-BwDkhjyp.js";import"./_commonjsHelpers-BosuxZz1.js";import"./index-B8XB3FuZ.js";import"./iframe-CScBNAvv.js";import"../sb-preview/runtime.js";import"./react-18-C80jiYne.js";import"./index-DXimoRZY.js";import"./index-B8K4vdXH.js";import"./index-DrFu-skq.js";function e(o){const n={h1:"h1",p:"p",...s(),...o.components};return t.jsxs(t.Fragment,{children:[t.jsx(i,{title:"Tokens/lineHeights"}),`
+`,t.jsx(n.h1,{id:"lineheights",children:"lineHeights"}),`
+`,t.jsx(n.p,{children:"Essas são as cores usadas"}),`
+`,t.jsx(r,{tokens:m})]})}function D(o={}){const{wrapper:n}={...s(),...o.components};return n?t.jsx(n,{...o,children:t.jsx(e,{...o})}):e(o)}export{D as default};

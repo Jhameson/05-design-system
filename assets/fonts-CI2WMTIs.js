@@ -1,0 +1,4 @@
+import{j as t}from"./index-BAe4MwBu.js";import{useMDXComponents as r}from"./index-DlpNa54Y.js";import{M as e}from"./chunk-HLWAVYOI-BdqtedXN.js";import{T as m}from"./TokensGrid-Cbsk5MZp.js";import{b as i}from"./index-rkO-q3PW.js";import"./index-BwDkhjyp.js";import"./_commonjsHelpers-BosuxZz1.js";import"./index-B8XB3FuZ.js";import"./iframe-CScBNAvv.js";import"../sb-preview/runtime.js";import"./react-18-C80jiYne.js";import"./index-DXimoRZY.js";import"./index-B8K4vdXH.js";import"./index-DrFu-skq.js";function s(o){const n={h1:"h1",p:"p",...r(),...o.components};return t.jsxs(t.Fragment,{children:[t.jsx(e,{title:"Tokens/fonts fam"}),`
+`,t.jsx(n.h1,{id:"fonts",children:"fonts"}),`
+`,t.jsx(n.p,{children:"Essas são as cores usadas"}),`
+`,t.jsx(m,{tokens:i})]})}function T(o={}){const{wrapper:n}={...r(),...o.components};return n?t.jsx(n,{...o,children:t.jsx(s,{...o})}):s(o)}export{T as default};

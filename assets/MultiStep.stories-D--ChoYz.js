@@ -1,0 +1,3 @@
+import{j as a}from"./index-BAe4MwBu.js";import{M as i,B as p}from"./index-CSk5E4Ly.js";import"./index-BwDkhjyp.js";import"./_commonjsHelpers-BosuxZz1.js";import"./index-B8XB3FuZ.js";const d={title:"Form/MultiStep",component:i,args:{size:4,currentStep:1},decorators:[o=>a.jsx(p,{as:"label",css:{display:"flex",flexDirection:"column",gap:"$2"},children:o()})]},r={args:{}};var e,t,s;r.parameters={...r.parameters,docs:{...(e=r.parameters)==null?void 0:e.docs,source:{originalSource:`{
+  args: {}
+}`,...(s=(t=r.parameters)==null?void 0:t.docs)==null?void 0:s.source}}};const x=["Primary"];export{r as Primary,x as __namedExportsOrder,d as default};
